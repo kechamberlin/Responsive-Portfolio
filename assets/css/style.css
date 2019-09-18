@@ -226,15 +226,14 @@ footer {
 /* use 3 @media screen tags with max-widths of 980px, 768px, and 640px */
 /* Look at Mobile Responsiveness and MQ Activities under class-material */
 
-@media screen (max-width: 980px) {
+@media screen and (max-width: 980px) {
+    .content-container {
+        width: 70%;
+        font-size: 12px;
+        margin-left: 20px;
+    }
 
-}
-
-
-@media screen (max-width: 768px) {
-
-}
-
-@media screen (max-width: 640px) {
-    
+    .logo-left {
+        padding-left: 15px;
+    }
 }
