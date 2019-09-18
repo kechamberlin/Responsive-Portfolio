@@ -237,3 +237,15 @@ footer {
         padding-left: 15px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .header-container {
+        width: 100%;
+    }
+
+    .content-container {
+        width: 90%;
+    }
+}
+
+
