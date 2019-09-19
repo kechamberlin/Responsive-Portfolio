@@ -248,4 +248,27 @@ footer {
     }
 }
 
+@media screen and (max-width: 640px) {
 
+    header {
+        position: static;
+    }
+
+    header h1 {
+        width: 100%;
+    }
+    .nav-right {
+        width: 100%;
+    }
+
+    .content-container {
+        width: 60%;
+        margin: auto;
+        margin-bottom: 40%;
+    }
+
+    .portfolio-image {
+        width: 100%;
+        padding-bottom: 10px;
+    }
+}
