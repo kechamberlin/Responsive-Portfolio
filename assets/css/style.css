@@ -243,6 +243,10 @@ footer {
         width: 100%;
     }
 
+    .nav-right {
+        padding-right: 20px;
+    }
+
     .content-container {
         width: 90%;
     }
